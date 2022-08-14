@@ -1,0 +1,11 @@
+@import '../abstracts/index';
+
+body {
+    display: grid;
+    background-color: $test;
+    p {
+        justify-self: center;
+        align-self: center;
+        font-size: $fs-title;
+    }
+}
